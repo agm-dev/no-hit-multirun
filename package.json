@@ -2,6 +2,7 @@
   "name": "no-hit-multirun",
   "version": "1.0.0",
   "main": "main.js",
+  "description": "Control pannel and scene to be added to OBS and control the steps in a multirun",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -9,7 +10,6 @@
   },
   "author": "agm-dev",
   "license": "MIT",
-  "description": "",
   "devDependencies": {
     "@electron-forge/cli": "^7.5.0",
     "@electron-forge/maker-deb": "^7.5.0",
