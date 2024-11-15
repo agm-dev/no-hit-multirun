@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <title>Contador de Multirun</title>
+</head>
+<body data-window="main">
+
+<div class="window">
+    <h1>
+        Conexión con escena: <span class="title">conectando...</span>
+    </h1>
+
+    <div class="block">
+      <label for="gamesInput">Introduce los juegos separados con espacios:</label>
+      <input type="text" id="gamesInput" placeholder="DS1 DS2 DS3">
+    </div>
+
+    <div class="block buttons">
+      <button id="randomButton">Random</button>
+      <button id="backButton"><<</button>
+      <button id="nextButton">>></button>
+      <button id="resetButton">Reset</button>
+    </div>
+
+    <div id="gamesContainer" class="block"></div>
+</div>
+
+<script src="/assets/js/connect.js"></script>
+<script src="/assets/js/index.js"></script>
+</body>
+</html>

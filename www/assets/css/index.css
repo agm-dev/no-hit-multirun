@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial';
+  font-size: 16px;
+  padding: 20px;
+}
+
+button {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.block {
+  margin: 12px 0 0;
+}
+
+label {
+  font-size: 1rem;
+}
+
+#gamesInput {
+  font-size: 2rem;
+  margin: 12px 0 0;
+  width: 100%;
+}
+
+#gamesContainer {
+  margin-top: 24px;
+}
+
+.game {
+  margin: 16px 0;
+  font-family: monospace;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.done {
+  color: #00EE00;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+}
